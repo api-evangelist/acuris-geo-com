@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-acuris-geo-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://acuris-geo.com/
+Acuris Geo provides developer APIs for global address validation and geocoding across more than 240 countries, delivering point-coordinate precision, forward and reverse geocoding, UK Royal Mail PAF data (UDPRN/UPRN), and eIDAS 2.0 EUDI Wallet verification. The service offers real-time responses and includes an open-source MCP server for AI assistants such as Claude, Cursor, and Copilot. It serves worldwide customers seeking reliable location data and compliance-ready address services.
+
+**Areas:** Company · Geocoding · Address-Validation · Location-Data · API
+
+## acuris-geo-com on APIs.io
+
+Everything profiled for acuris-geo-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acuris-geo-com/](https://apis.io/providers/acuris-geo-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [acuris-geo-com Account API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-account-api/) — Key check and account-related helpers
+- [acuris-geo-com Billing API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-billing-api/) — Stripe-hosted self-serve subscription checkout
+- [acuris-geo-com Config API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-config-api/) — Client configuration for forms
+- [acuris-geo-com Geocoding API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-geocoding-api/) — Rooftop / reference-database geocoding
+- [acuris-geo-com Postcode lookup API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-postcode-lookup-api/) — UK postcode → all addresses (Royal Mail PAF)
+- [acuris-geo-com Suggest API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-suggest-api/) — Autocomplete-style suggestions
+- [acuris-geo-com Validation API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-validation-api/) — Address validation and free-tier transactions
+- [acuris-geo-com Versioned aliases (v1) API](https://apis.io/apis/acuris-geo-com/acuris-geo-com-versioned-aliases-v1-api/) — Stable `/v1/*` mirrors of the core endpoints. Behaviour is identical to the unversioned routes above — same engine, same response schema — but the path is…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Acuris Geo Com Agentic Access](https://apis.io/agentic-access/acuris-geo-com/acuris-geo-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DevKeyResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-dev-key-response/)
+- [ForwardGeocodeResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-forward-geocode-response/)
+- [GeocodeResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-geocode-response/)
+- [ReverseResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-reverse-response/)
+- [SuggestItem](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-suggest-item/)
+- [ValidateResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-validate-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Acuris Geo Com Context](https://apis.io/jsonld/acuris-geo-com/acuris-geo-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [acuris-geo-com API Rules](https://apis.io/rules/acuris-geo-com/acuris-geo-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Acuris Geo Com Authentication](https://apis.io/security/acuris-geo-com/acuris-geo-com-authentication/)
+- [Acuris Geo Com Domain Security](https://apis.io/security/acuris-geo-com/acuris-geo-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Acuris Geo Com Scopes](https://apis.io/scopes/acuris-geo-com/acuris-geo-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Acuris Geo Com Plans Pricing](https://apis.io/plans/acuris-geo-com/acuris-geo-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Acuris Geo Com Rate Limits](https://apis.io/rate-limits/acuris-geo-com/acuris-geo-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://acuris-geo.com/)
+- [Getting started](https://api.acuris-geo.com/docs)
+- [API reference](https://api.acuris-geo.com/docs)
+- [Support](https://api.acuris-geo.com/support)
+- [Terms of service](https://www.acuris-geo.com/terms/)
+- [Privacy policy](https://www.acuris-geo.com/privacy-policy/)
+- [GitHub](https://github.com/Acuris-GmbH)
+- [Status](https://api.acuris-geo.com/status)
+
+## API Evangelist rating
+
+**Kin Score 59.9** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 61.1 |
+| Contract governance | 70.9 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 53.2 |
+
+**Agent readiness 43.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acuris-geo-com/](https://apis.io/providers/acuris-geo-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for acuris-geo-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acuris-geo-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
