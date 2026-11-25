@@ -66,7 +66,7 @@
 
 Acuris Geo provides developer APIs for global address validation and geocoding across more than 240 countries, delivering point-coordinate precision, forward and reverse geocoding, UK Royal Mail PAF data (UDPRN/UPRN), and eIDAS 2.0 EUDI Wallet verification. The service offers real-time responses and includes an open-source MCP server for AI assistants such as Claude, Cursor, and Copilot. It serves worldwide customers seeking reliable location data and compliance-ready address services.
 
-**Areas:** Company · Geocoding · Address-Validation · Location-Data · API
+**Areas:** Company · Geocoding · Address Validation · Location Data
 
 ## acuris-geo-com on APIs.io
 
@@ -87,19 +87,26 @@ Everything profiled for acuris-geo-com is published on APIs.io rather than in th
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [acuris-geo-com-mcp.yml](https://apis.io/servers/acuris-geo-com/acuris-geo-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Acuris Geo Com Agentic Access](https://apis.io/agentic-access/acuris-geo-com/acuris-geo-com-agentic-access/)
+- [acuris-geo-com Agentic Access](https://apis.io/agentic-access/acuris-geo-com/acuris-geo-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (7)
 
 The data models the API reads and writes.
 
 - [DevKeyResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-dev-key-response/)
 - [ForwardGeocodeResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-forward-geocode-response/)
 - [GeocodeResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-geocode-response/)
+- [PostcodeAddress](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-postcode-address/)
 - [ReverseResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-reverse-response/)
 - [SuggestItem](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-suggest-item/)
 - [ValidateResponse](https://apis.io/schemas/acuris-geo-com/acuris-geo-com-validate-response/)
@@ -109,6 +116,12 @@ The data models the API reads and writes.
 Linked-data contexts for the provider's vocabulary.
 
 - [Acuris Geo Com Context](https://apis.io/jsonld/acuris-geo-com/acuris-geo-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [acuris-geo-com Suggest Api Certification Overlay](https://apis.io/overlays/acuris-geo-com/acuris-geo-com-suggest-api-certification-overlay/)
 
 #### Governance rules (1)
 
@@ -120,26 +133,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Acuris Geo Com Authentication](https://apis.io/security/acuris-geo-com/acuris-geo-com-authentication/)
-- [Acuris Geo Com Domain Security](https://apis.io/security/acuris-geo-com/acuris-geo-com-domain-security/)
+- [acuris-geo-com Authentication](https://apis.io/security/acuris-geo-com/acuris-geo-com-authentication/)
+- [acuris-geo-com Domain Security](https://apis.io/security/acuris-geo-com/acuris-geo-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Acuris Geo Com Scopes](https://apis.io/scopes/acuris-geo-com/acuris-geo-com-scopes/)
+- [acuris-geo-com Scopes](https://apis.io/scopes/acuris-geo-com/acuris-geo-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Acuris Geo Com Plans Pricing](https://apis.io/plans/acuris-geo-com/acuris-geo-com-plans-pricing/)
+- [acuris-geo-com Plans Pricing](https://apis.io/plans/acuris-geo-com/acuris-geo-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Acuris Geo Com Rate Limits](https://apis.io/rate-limits/acuris-geo-com/acuris-geo-com-rate-limits/)
+- [acuris-geo-com Rate Limits](https://apis.io/rate-limits/acuris-geo-com/acuris-geo-com-rate-limits/)
 
 ## Where to find this API
 
@@ -156,23 +169,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 59.9** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 54.8** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.7 |
-| Contract quality | 61.1 |
-| Contract governance | 70.9 |
-| Operational transparency | 21.1 |
+| Discoverability | 58.3 |
+| Contract quality | 64.2 |
+| Contract governance | 33.3 |
+| Operational transparency | 19.0 |
 | Developer ergonomics | 66.0 |
-| Access clarity | 53.2 |
+| Access clarity | 59.6 |
 
-**Agent readiness 43.1** — agent-ready (gated down from agent-native)
+**Agent readiness 38.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -192,8 +205,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acuris-geo-com/](https://apis.io/providers/acuris-geo-com/).
 
